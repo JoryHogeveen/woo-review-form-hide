@@ -1,4 +1,10 @@
 jQuery( function( $ ) {
+
+	if ( window.location.search.indexOf( 'show_review_form' ) ) {
+		// Do not hide form.
+		return;
+	}
+
 	$( '.comment-form' ).each( function() {
 		var $this          = $( this ),
 			$form_elements = $this.find( '> *:not(.comment-form-rating,.comment-notes)' ),
