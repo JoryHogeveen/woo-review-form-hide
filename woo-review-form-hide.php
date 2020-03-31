@@ -5,6 +5,7 @@
  * Version:     1.1
  * Author:      Jory Hogeveen
  * Author URI:  https://www.keraweb.nl
+ * Text Domain: woo-review-form-hide
  */
 
 if ( ! defined ( 'ABSPATH' ) ) {
