@@ -1,6 +1,6 @@
 jQuery( function( $ ) {
 
-	if ( window.location.search.indexOf( 'show_review_form' ) ) {
+	if ( 0 < window.location.search.indexOf( 'show_review_form' ) ) {
 		// Do not hide form.
 		return;
 	}
