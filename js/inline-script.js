@@ -7,7 +7,7 @@ jQuery( function( $ ) {
 
 	$( '.comment-form' ).each( function() {
 		var $this          = $( this ),
-			$form_elements = $this.find( '> *:not(.comment-form-rating,.comment-notes)' ),
+			$form_elements = $this.find( '> *:not(.comment-form-rating,.comment-notes,script,style,noscript)' ),
 			// Store rating element for live triggers.
 			$rating        = $this.find( '.comment-form-rating' ),
 			$rating_select = $rating.find( 'select' );
