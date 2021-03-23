@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       WooCommerce Reviews - Hide Form
  * Description:       Hides the Woocommerce review form until user selects a rating
- * Version:           1.1
+ * Version:           1.2
  * Author:            Jory Hogeveen
  * Author URI:        https://www.keraweb.nl
  * Text Domain:       woo-review-form-hide
